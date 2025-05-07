@@ -9,7 +9,7 @@ for i in arr:
 
 sum_arr = sum(arr_1)
 avg_arr = sum(arr_1) / len(arr_1)
-print(sum_arr, round(avg_arr, 0))
+print(sum_arr, round(avg_arr, 1))
 
     
         
