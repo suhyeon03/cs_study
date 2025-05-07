@@ -10,11 +10,20 @@
 # print(answer)
 
 # 이진수 뒤에다 0을 붙이면 2배, 10진수 뒤에다 0을 붙이면 10배
-binary = [1,1,1,0,1]
+# binary = [1,1,1,0,1]
 
-answer = 0
+# answer = 0
 
-for x in binary:
-    answer *= 2
-    answer += x
-print(answer)
+# for x in binary:
+#     answer *= 2
+#     answer += x
+# print(answer)
+
+binary = list(map(int, list(input())))
+length = len(binary)
+num = 0
+
+for i in range(length):
+    num = num * 2 + binary[i]
+
+print(num)
