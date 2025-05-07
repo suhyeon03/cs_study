@@ -1,7 +1,3 @@
-n = int(input())
-students = [tuple(map(int, input().split())) + (i + 1,) for i in range(n)]
-
-# Please write your code here.
 # 클래스 선언
 class Student:
     def __init__(self, height, weight, number):
@@ -21,4 +17,5 @@ students.sort(key=lambda x: (-x.height, -x.weight, x.number))
 # 출력
 for student in students:
     print(student.height, student.weight, student.number)
+
 
