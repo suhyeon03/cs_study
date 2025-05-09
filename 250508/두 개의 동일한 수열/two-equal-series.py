@@ -3,15 +3,12 @@ A = list(map(int, input().split()))
 B = list(map(int, input().split()))
 
 # Please write your code here.
-A.sort()
-B.sort()
+a.sort()
+b.sort()
 
 for i in range(len(A)):
-    if A[i] != B[i]:
-        break
-        print('NO')
-print('YES')
-        
+    if A[i] == B[i]:
+        print('YES')
 
 
 
