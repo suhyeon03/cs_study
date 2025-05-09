@@ -7,8 +7,11 @@ A.sort()
 B.sort()
 
 for i in range(len(A)):
-    if A[i] == B[i]:
-        return True
+    if A[i] != B[i]:
+        break
+        print('NO')
+    print('YES')
+        
 
 
 
