@@ -8,7 +8,7 @@ B.sort()
 
 for i in range(len(A)):
     if A[i] == B[i]:
-        print('YES')
+        return True
 
 
 
